@@ -33,6 +33,7 @@
 //  epicMovement()
 
 
+// ACCEPTING USER INPUT
 
 // function checkEmail(email) {
 //     if(email.includes("@gmail.com")){
@@ -46,9 +47,40 @@
 
 
 
-let myName = "fadipe quadri abiodun"
-let age = 10
+// let myName = "fadipe quadri abiodun"
+// let age = 10
 
-document.getElementById ("user").textContent = `my name is ${myName}`
-document.getElementById ("userAge").textContent =  age
+// document.getElementById ("user").textContent = `my name is ${myName}`
+// document.getElementById ("userAge").textContent =  age
+
+
+// document.getElementById(`myName`)
+// document.getElementById(`input`)
+// document.getElementById(`submit`)
+
+
+
+// function userName(user) {
+//   user =  document.getElementById(`input`).value,
+//   // console.log(user) 
+// document.getElementById(`myName`).innerText = (`welcome ${user}`)
+// }
+
+
+// //  document.getElementById(`submit`)
+//  document.getElementById(`input`)
+//  document.getElementById(`input1`)
+ 
+
+function userName(){
+  user = document.getElementById(`input`).value,
+  console.log(user)
+
+  password = document.getElementById(`password`).value,
+  console.log(password.includes(`@`))
+
+  document.getElementById(`myName`).innerText = (`welcome ${user}`)
+
+}
+
 
