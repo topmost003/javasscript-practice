@@ -1,4 +1,4 @@
-  
+   
 
 // let greet = (Button = greeting)
 
@@ -102,18 +102,34 @@
 
 // console.log(circumference)
 
-const pi = 3.142
-let circumference;
-let radius;
+// const pi = 3.142
+// let circumference;
+// let radius;
 
-function calculate(){
-let radius = document.getElementById (`input`).value;
-radius = Number(radius);
-let circumference = 2 * pi * radius;
-console.log(circumference);
+// function calculate(){
+// let radius = document.getElementById (`input`).value;
+// radius = Number(radius);
+// let circumference = 2 * pi * radius;
+// console.log(circumference);
 
-document.getElementById (`answer`).innerText = circumference
+// document.getElementById (`answer`).innerText = circumference
 
-} 
+// } 
 
 
+let myAge = document.getElementById (`myAge`)
+let answer = document.getElementById (`answer`)
+
+
+
+function submit(){
+let age =  Number(myAge.value)
+
+  if (age > 18) {
+  answer.innerText = "you caaan drive"
+  }
+  else 
+  { answer.innerText = "you cannot drive"} 
+
+  console.log (age)
+}
